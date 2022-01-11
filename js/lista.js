@@ -19,6 +19,7 @@ for (const producto of productos) {
         `
         <div class="card-body">
             <h5 class="card-title">${ producto.nombre}</h5>
+            <div class="product-card">
             <img class="img-fluid" src="${producto.imagen}">
             <p class="card-text">$ ${producto.precio}<p>
             <div class="card-title agregar-producto">
@@ -30,6 +31,7 @@ for (const producto of productos) {
                 <option value="3">3</option>
             </select>
             <button id="btn-add-${producto.id}" class="btn btn-primary addProduct"> Agregar </button>
+            </div>
             </div>
         </div>
         `
