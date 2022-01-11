@@ -122,3 +122,20 @@ footer{
 .contacto i{
     margin-left: 0.5rem;
 }
+
+@media screen and (max-width: 500px) {
+    footer {
+      flex-direction: column-reverse;
+    }
+
+    footer div{
+        padding: 0.1rem;
+        margin:0;
+    }
+
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+  }
